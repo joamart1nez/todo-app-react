@@ -1,0 +1,12 @@
+input{
+  font-size: 20px;
+  padding: 5px 6px;
+  outline: none;
+  background-color: rgba(255,255,255, .1);
+  border: 2px solid #c5c5c5;
+  border-radius: 5px;
+  margin: 5px;
+}
+input::placeholder{
+  text-transform: capitalize;
+}

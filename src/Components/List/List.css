@@ -1,0 +1,79 @@
+.list-container{
+  padding-bottom: 10px;
+}
+
+.item-list{
+  margin: 8px 2px 0;
+  padding: 2px 0;
+  cursor: pointer;
+  border-left: 2px solid;
+}
+
+.item-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-container{
+  display: flex;
+}
+
+.item-list:hover > p{
+  transform: scaleY(1);
+  height: 20px;
+}
+
+.item-list > p{
+  margin-left: 34px;
+  transform: scaleY(0);
+  height: 0;
+  transform-origin: top;
+  transition: .2s ease-in-out;
+}
+
+.title-container > h3{
+  color: #919191;
+  margin-left: 10px;
+}
+.title-container > h3.checked{
+  text-decoration: line-through;
+}
+
+.description{
+  color: #797979;
+}
+
+.delete-todo{
+  background: #ff9494;
+  outline: none;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+.delete-todo:hover{
+  background: #fc8686;
+}
+
+.filter{
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ebebeb;
+}
+
+.filter > button{
+  padding: 6px;
+  margin: 0 5px;
+  background-color: #ebebeb;
+  color: #000;
+  border: none; 
+  outline: none;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.filter > .checked{
+  background-color: #1E6FC5;
+  color: #fff;
+}

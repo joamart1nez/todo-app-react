@@ -1,0 +1,18 @@
+form{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+button[type=submit]{
+  padding: 6px;
+  margin: 0 5px;
+  background-color: #1E6FC5;
+  color: #fff;
+  border: none; 
+  outline: none;
+  border-radius: 3px;
+  font-size: 15px;
+}
